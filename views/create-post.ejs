@@ -12,6 +12,7 @@
       <form action="/posts" method="POST">
         <!-- method is "POST" as we deal with data that should be stored somewhere on the server side database.  -->
         <!-- /posts is a post route created on the blog.js -->
+        <!-- As the input fields have names, we can extract the user entered data from the incoming post request body. -->
         <div class="form-control">
           <label for="title">Title</label>
           <input type="text" id="title" name="title" required />
