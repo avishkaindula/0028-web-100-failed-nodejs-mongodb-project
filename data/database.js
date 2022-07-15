@@ -71,3 +71,35 @@ module.exports = {
 // It will ensure that the functions hasn't been executed yet, but instead that can be executed in other files.
 
 // Now we can connect this file to app.js
+
+// ==============================================================================================================
+
+// const mongodb = require("mongodb");
+
+// const MongoClient = mongodb.MongoClient;
+
+// let database;
+
+// async function connect() {
+//   const uri =
+//     "mongodb+srv://avishka_indula:<password>3@cluster0.ibnu8y4.mongodb.net/?retryWrites=true&w=majority";
+
+//   const client = await new MongoClient.connect(uri);
+//   database = client.db("blog");
+// }
+
+// function getDb() {
+//   if (!database) {
+//     throw { message: "Database connection not established!" };
+//   }
+//   // This is how we check whether the database hasn't been set or not.
+
+//   return database;
+// }
+
+// module.exports = {
+//   connectToDatabase: connect,
+//   getDb: getDb,
+// };
+
+// ==============================================================================================================
